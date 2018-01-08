@@ -2,7 +2,7 @@
 #FROM openshift/base-centos7
 #FROM debian:wheezy
 #FROM java:8
-FROM alpine:3.7
+FROM nimmis/java-centos:openjdk-7-jdk
 
 # environment variables
 ENV MULE_HOME /opt/mule
