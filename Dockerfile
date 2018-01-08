@@ -55,8 +55,8 @@ RUN yum update -y \
 COPY sample-app_new.zip /opt/mule/apps/
 
 # run as non-root user
-RUN chown -R 1001:0 $MULE_HOME && \
-    chmod -R g+wrx $MULE_HOME
+#RUN chown -R 1001:0 $MULE_HOME && \
+#    chmod -R g+wrx $MULE_HOME
 #RUN useradd mule && \
 #    chown -RL mule /opt/mule/
 #ENV RUN_AS_USER mule
