@@ -1,8 +1,8 @@
-FROM openshift/wildfly-101-centos7
+#FROM openshift/wildfly-101-centos7
 #FROM openshift/base-centos7
 #FROM debian:wheezy
 #FROM java:8
-
+FROM 8u151-jdk-alpine
 
 # environment variables
 ENV MULE_HOME /opt/mule
